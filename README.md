@@ -1,2 +1,18 @@
-# hackathon-fall-2026
-Our HackState Fall 2026 hackathon entry: a group-chat expense splitter
+# SplitIt — HackState Fall 2026
+
+Built in 36 hours at the HackState **hackathon** (Nov 7–9, 2026).
+
+SplitIt is a Slack/Discord bot that tracks who owes what in a group chat. Type `/split 42.50 pizza @joe @noah` and it does the math.
+
+## Team
+- Noah — backend + bot commands
+- Joe Smith — frontend dashboard
+
+## Setup
+```bash
+npm install
+cp .env.example .env   # add your bot token
+npm run dev
+```
+
+Ideas we didn't get to are in the issues tab.
